@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Title/Style.css'
 
 
 export const Title = ({title}) => {
