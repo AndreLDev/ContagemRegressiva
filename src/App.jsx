@@ -7,7 +7,7 @@ import userCountDown from './hooks/userCountDown'
 
 
 function App() {
-  const [day, hour, minute, second] = userCountDown('Jan 1, 2024 00:00')
+  const [day, hour, minute, second] = userCountDown('Jan 1, 2025 00:00')
 
   return (
      <div className='App' style={{backgroundImage:(`url('https://s1.1zoom.me/b5050/257/Fireworks_523615_1920x1080.jpg')`)}}>
